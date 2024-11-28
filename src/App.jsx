@@ -118,7 +118,7 @@ const App = () => {
           <form onSubmit={handleUpload} className="flex flex-col gap-4 items-center">
             <input
               type="file"
-              accept=".pwn"
+              accept=".zip"
               onChange={handleFileChange}
               className="border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300"
             />
